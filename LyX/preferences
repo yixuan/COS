@@ -1,0 +1,84 @@
+# This file is written by LyX, if you want to make your own
+# modifications you should do them from inside LyX and save
+
+
+#
+# SCREEN & FONTS SECTION ############################
+#
+
+\screen_zoom 100
+\screen_font_roman "Palatino Linotype"
+\screen_font_sans "DejaVu Sans Condensed"
+\screen_font_typewriter "Consolas"
+\screen_font_sizes 5.0 7.0 8.0 9.0 11.0 13.0 14.4 17.26 20.74 24.88
+
+#
+# COLOR SECTION ###################################
+#
+
+
+#
+# PRINTER SECTION ###################################
+#
+
+
+#
+# EXPORT SECTION ####################################
+#
+
+
+#
+# TEX SECTION #######################################
+#
+
+\font_encoding ""
+
+#
+# FILE SECTION ######################################
+#
+
+\completion_inline_delay 0.00
+\completion_popup_delay 0.00
+
+#
+# PLAIN TEXT EXPORT SECTION ##############################
+#
+
+
+#
+# SPELLCHECKER SECTION ##############################
+#
+
+
+#
+# LANGUAGE SUPPORT SECTION ##########################
+#
+
+\mark_foreign_language false
+
+#
+# 2nd MISC SUPPORT SECTION ##########################
+#
+
+
+#
+# FORMATS SECTION ##########################
+#
+
+\format "pdflatex" "tex" "LaTeX (pdflatex)" "" "editor" "editor" "document"
+\format "latex" "tex" "LaTeX (plain)" "" "editor" "editor" "document"
+\format "r" "R" "R/S code" "" "komodo" "komodo" "document"
+\format "literate" "Rnw" "Sweave" "" "komodo" "komodo" "document"
+
+#
+# CONVERTERS SECTION ##########################
+#
+
+\converter "literate" "r" "R CMD Stangle $$i" ""
+\converter "literate" "latex" "cp $$r/*.{r,txt,pdf} ./ & R --verbose --no-save --no-restore -q -e library(pgfSweave);pgfSweave('$$i',compile.tex=FALSE)" ""
+\converter "literate" "pdflatex" "cp $$r/*.{r,txt,pdf} $$r/fig* ./ -r & R --no-save -e library(pgfSweave);pgfSweave('$$i',compile.tex=FALSE) && cp ./fig* $$r/ -r" ""
+
+#
+# COPIERS SECTION ##########################
+#
+
