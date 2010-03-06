@@ -434,7 +434,7 @@ ctex-article.layout
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand verbatiminput
-filename "LyX/ctex-article.layout"
+filename "LyX/layouts/ctex-article.layout"
 
 \end_inset
 
@@ -665,6 +665,87 @@ http://yihui.name/cn/2010/02/misc-issues-in-latex-lyx-r-sweave-pgfsweave/
 \end_inset
 
 ；这种事情自己能钻研出来，就是说不清楚。
+\end_layout
+
+\begin_layout Chapter
+网站说明
+\end_layout
+
+\begin_layout Section
+COS邮箱
+\end_layout
+
+\begin_layout Standard
+我们为每一位正式参与到COS建设的会员（论坛版主及管理员、主站作者、维基管理员、高校联系人等）都创建了COS邮箱帐户。COS邮箱是构建在Google企业应用套件
+上的邮件平台，以下几点对COS邮箱的说明敬请关注：
+\end_layout
+
+\begin_layout Itemize
+COS邮箱采用统一的格式“名.姓@cos.name”来命名，例如
+\begin_inset CommandInset href
+LatexCommand href
+target "yihui.xie@cos.name"
+type "mailto:"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+COS邮箱的登录地址为
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+https://mail.google.com/a/cos.name
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+在COS的相关页面上，COS邮箱将作为会员对外公布联系方式时的专用邮箱，一般情况下会员的个人邮箱将不再出现在这些场合
+\end_layout
+
+\begin_layout Itemize
+COS邮箱同时也是COS内部进行交流的指定邮箱，一般情况下相关信件不再发往会员的个人邮箱
+\end_layout
+
+\begin_layout Standard
+COS邮箱主要有以下两种使用方式：
+\end_layout
+
+\begin_layout Itemize
+将COS邮箱作为日常收发邮件的常用邮箱，这种情况下可以将之前所使用的邮箱的信息导入到COS邮箱中，方法是在COS邮箱主界面的右上角点选“设置”面板，进入“帐户”
+标签，然后在“从其他帐户获得邮件”页面中进行相关操作。
+\end_layout
+
+\begin_layout Itemize
+如果不使用COS邮箱来进行日常的邮件处理，但希望及时获取COS邮箱中的信息，则可以将COS邮箱中的内容自动转发到常用的邮箱，方法是在“设置”面板中进入“转发和P
+OP/IMAP”标签，进行转发设置。
+\end_layout
+
+\begin_layout Standard
+在准备直接使用COS邮箱或设置好了转发后，请务必发送一封确认邮件到
+\begin_inset CommandInset href
+LatexCommand href
+target "admin@cos.name"
+type "mailto:"
+
+\end_inset
+
+，以说明COS邮箱被正确地使用。如有任何疑问，请联系
+\begin_inset CommandInset href
+LatexCommand href
+target "contact@cos.name"
+type "mailto:"
+
+\end_inset
+
+。
 \end_layout
 
 \end_body
